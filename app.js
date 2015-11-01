@@ -11,7 +11,10 @@ app.get('/', function(req, res){
 
 
 io.sockets.on('connection', function(socket){
+  console.log( 'conexion entrante', socket.request.connection.remoteAddress );
+  var ip = socket.request.connection.remoteAddress;
 	socket.on('send message', function(data){
-			io.sockets.emit('new message', data);
+  console.log( 'mensaje!', data );
+			io.sockets.emit('new message', ip + ': ' + data);
 	});
 });
