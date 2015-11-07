@@ -1,24 +1,9 @@
 {
-  "name": "chat",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "express": "^4.6.1",
-    "socket.io": "1.0.6"
-  },
-  "description": "* Correr ```npm install``` antes de ejecutar! * Ejecutar ```node app.js```. * En caso de ubuntu Ejecutar ```nodejs app.js```.",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JoparatonSIG/chat.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/JoparatonSIG/chat/issues"
-  },
-  "homepage": "https://github.com/JoparatonSIG/chat#readme"
+	"name":"chat",
+	"version":"0.1.0",
+	"private":true,
+	"dependencies":{
+		"socket.io": "1.0.6",
+		"express": "4.6.1"
+	}
 }
