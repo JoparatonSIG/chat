@@ -1,0 +1,14 @@
+{
+  "name": "hackpire",
+  "version": "0.0.1",
+  "description": "express test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hackpira@subhell.io",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
